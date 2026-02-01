@@ -24,9 +24,9 @@ To build Player Mover Velocity, follow these steps:
 2. Navigate to the cloned directory.
 3. Execute the following command using Gradle Wrapper (`gradlew`):
 
-    ```sh
-    chmod +x ./gradlew # on unix systems
-    ./gradlew build
-    ```
+   ```sh
+   chmod +x ./gradlew # on unix systems
+   ./gradlew build
+   ```
 
 4. Once the build is successful, locate the output file in the `[Velocity - Paper - Fabric]/build/libs/` directory. This file is typically the largest file in the directory and will have a `.jar` extension.

@@ -19,6 +19,8 @@ allprojects {
         maven {
             name = "Velocity"
             url = "https://nexus.velocitypowered.com/repository/maven-public/"
+            name = "papermc"
+            url = "https://repo.papermc.io/repository/maven-public/"
             content {
                 excludeGroupByRegex("net\\.fabricmc.*")
             }
